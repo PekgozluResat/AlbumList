@@ -34,7 +34,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sqt-bm-blU">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="folder-blue" translatesAutoresizingMaskIntoConstraints="NO" id="sqt-bm-blU">
                                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="sqt-bm-blU" secondAttribute="height" multiplier="1:1" id="OYg-ck-KgW"/>
@@ -216,4 +216,7 @@
             <point key="canvasLocation" x="-441" y="32"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="folder-blue" width="512" height="512"/>
+    </resources>
 </document>
