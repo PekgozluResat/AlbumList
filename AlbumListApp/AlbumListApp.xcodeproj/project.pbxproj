@@ -15,6 +15,8 @@
 		C00B017B215CBA200072DD0E /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B017A215CBA200072DD0E /* AlbumsViewController.swift */; };
 		C00B017D215CBA520072DD0E /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B017C215CBA520072DD0E /* AlbumDetailViewController.swift */; };
 		C00B017F215CBA630072DD0E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B017E215CBA630072DD0E /* PhotoViewController.swift */; };
+		C00B0181215CBABC0072DD0E /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B0180215CBABC0072DD0E /* ApiService.swift */; };
+		C00B0183215CBAD30072DD0E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B0182215CBAD30072DD0E /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		C00B017A215CBA200072DD0E /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		C00B017C215CBA520072DD0E /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
 		C00B017E215CBA630072DD0E /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		C00B0180215CBABC0072DD0E /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		C00B0182215CBAD30072DD0E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		C00B0159215CB8940072DD0E /* AlbumListApp */ = {
 			isa = PBXGroup;
 			children = (
+				C00B0182215CBAD30072DD0E /* Models.swift */,
+				C00B0180215CBABC0072DD0E /* ApiService.swift */,
 				C00B015A215CB8940072DD0E /* AppDelegate.swift */,
 				C00B017A215CBA200072DD0E /* AlbumsViewController.swift */,
 				C00B017C215CBA520072DD0E /* AlbumDetailViewController.swift */,
@@ -204,7 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C00B017B215CBA200072DD0E /* AlbumsViewController.swift in Sources */,
+				C00B0181215CBABC0072DD0E /* ApiService.swift in Sources */,
 				C00B017F215CBA630072DD0E /* PhotoViewController.swift in Sources */,
+				C00B0183215CBAD30072DD0E /* Models.swift in Sources */,
 				C00B015B215CB8940072DD0E /* AppDelegate.swift in Sources */,
 				C00B017D215CBA520072DD0E /* AlbumDetailViewController.swift in Sources */,
 			);
